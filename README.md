@@ -241,3 +241,113 @@ main img {
     padding: 15px;
 }
 
+-----
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(pattern-beige-tiles.png);
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: burlywood;
+    border-top: 3px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+
+h1, h2 {
+    margin: 20px;
+    border-bottom: 2px black solid;
+    font-size: 24px;
+}
+
+p {
+    line-height: 120%;
+    margin: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container>a {
+    max-width: 100px;
+    width: 30%;
+    margin: 30px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+nav {
+    display: inline;
+}
+
+.container nav a {
+    max-width: 100px;
+    width:30%;
+    padding: 0 25px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    float: right;
+}
+
+.border-link {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+article {
+    max-width: 550px;
+    width: 60%;
+    background-color: white;
+    margin: 30px 20px;
+    padding: 20px;
+}
+
+aside {
+    max-width: 250px;
+    width: 30%;
+    margin: 0 20px;
+    padding: 20px 0;
+    float: right;
+    background: white;
+    display: inline-block;
+    text-align: center;
+}
+
+aside img {
+    padding:  0 10px;
+}
+
+article img {
+    float: left;
+    margin: 0 20px;
+}
+
